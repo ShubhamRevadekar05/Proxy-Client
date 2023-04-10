@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "target": "es2021",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "lib": ["ES2021"],
+        "skipLibCheck": true,
+        "resolveJsonModule": true,
+        "esModuleInterop": true,
+        "sourceMap": false,
+        "outDir": "build",
+    },
+    "include": ["./**/*", "package.json"],
+    "exclude": ["node_modules"]
+}
